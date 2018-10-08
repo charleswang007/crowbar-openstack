@@ -1,0 +1,21 @@
+{
+  "type": "map",
+  "required": true,
+  "mapping": {
+    "id": { "type": "str", "required": true, "pattern": "/^cinder-|^template-ses$/" },
+    "description": { "type": "str", "required": true },
+    "attributes": {
+      "type": "map",
+      "required": true,
+      "mapping": {
+        "ses": {
+          "type": "map",
+          "required": true,
+          "mapping": {
+            "debug": { "type": "bool", "required": true },
+          }
+        }
+      }
+    }
+  }
+}

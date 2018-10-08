@@ -1,0 +1,9 @@
+{
+ "id": "template-ses",
+ "description": "Installation for SES",
+ "attributes": {
+   "ses": {
+     "debug": false
+   }
+ }
+}

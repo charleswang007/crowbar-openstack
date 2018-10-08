@@ -1,0 +1,9 @@
+en:
+  nav:
+    ses: 'SES'
+  barclamp:
+    ses:
+      edit_attributes:
+        test: "Test"
+      validation:
+        test: "Test"
