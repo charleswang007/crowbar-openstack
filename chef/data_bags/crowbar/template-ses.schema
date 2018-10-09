@@ -13,6 +13,56 @@
           "required": true,
           "mapping": {
             "debug": { "type": "bool", "required": true },
+            "ceph_conf": {
+              "type": "map",
+              "required": true,
+              "mapping": {
+                "cluster_network": { "type": "str", "required": true },
+                "fsid": { "type": "str", "required": true },
+                "mon_host": { "type": "str", "required": true },
+                "mon_initial_members": { "type": "str", "required": true },
+                "public_network": { "type": "str", "required": true }
+              }
+            },
+            "radosgw_urls": {
+              "type": "seq",
+              "required": true,
+              "sequence": [ { "type": "str" } ]
+            },
+            "cinder": {
+              "type": "map",
+              "required": true,
+              "mapping": {
+                "key": { "type": "str", "required": true },
+                "rbd_store_pool": { "type": "str", "required": true },
+                "rbd_store_user": { "type": "str", "required": true }
+              }
+            },
+            "cinder-backup": {
+              "type": "map",
+              "required": true,
+              "mapping": {
+                "key": { "type": "str", "required": true },
+                "rbd_store_pool": { "type": "str", "required": true },
+                "rbd_store_user": { "type": "str", "required": true }
+              }
+            },
+            "glance": {
+              "type": "map",
+              "required": true,
+              "mapping": {
+                "key": { "type": "str", "required": true },
+                "rbd_store_pool": { "type": "str", "required": true },
+                "rbd_store_user": { "type": "str", "required": true }
+              }
+            },
+            "nova": {
+              "type": "map",
+              "required": true,
+              "mapping": {
+                "rbd_store_pool": { "type": "str", "required": true },
+              }
+            },
           }
         }
       }

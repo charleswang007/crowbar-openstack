@@ -3,7 +3,33 @@
  "description": "Installation for SES",
  "attributes": {
    "ses": {
-     "debug": false
+     "debug": false,
+     "ceph_conf": {
+       "cluster_network": "",
+       "fsid": "",
+       "mon_host": "",
+       "mon_initial_members": "",
+       "public_network": ""
+     },
+     "radosgw_urls": [],
+     "cinder": {
+       "key": "",
+       "rbd_store_pool": "",
+       "rbd_store_user": ""
+     },
+     "cinder-backup": {
+       "key": "",
+       "rbd_store_pool": "",
+       "rbd_store_user": ""
+     },
+     "glance": {
+       "key": "",
+       "rbd_store_pool": "",
+       "rbd_store_user": ""
+     },
+     "nova": {
+       "rbd_store_pool": ""
+     }
    }
  }
 }
