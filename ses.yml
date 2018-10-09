@@ -17,7 +17,7 @@
 barclamp:
   name: 'ses'
   display: 'SES'
-  description: 'Crowbar SES Integration'
+  description: 'SUSE Enterprise Storage (ceph) Integration'
   version: 0
   requires:
     - '@crowbar'
