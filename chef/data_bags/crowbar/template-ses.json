@@ -4,6 +4,10 @@
  "attributes": {
    "ses": {
      "debug": false,
+     "cinder_instance": "none",
+     "nova_instance": "none",
+     "keystone_instance": "none",
+     "glance_instance": "none",
      "ceph_conf": {
        "cluster_network": "",
        "fsid": "",
@@ -53,5 +57,6 @@
        "transitions": false,
        "transition_list": []
      }
+   }
  }
 }
