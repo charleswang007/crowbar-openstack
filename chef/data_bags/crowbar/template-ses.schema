@@ -17,6 +17,7 @@
             "keystone_instance": { "type": "str", "required": true },
             "nova_instance": { "type": "str", "required": true },
             "glance_instance": { "type": "str", "required": true },
+            "yaml_file": { "type": "str", "required": false },
             "ceph_conf": {
               "type": "map",
               "required": true,
