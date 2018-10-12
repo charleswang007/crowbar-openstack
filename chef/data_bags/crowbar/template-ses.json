@@ -8,7 +8,7 @@
      "nova_instance": "none",
      "keystone_instance": "none",
      "glance_instance": "none",
-     "yaml_file": "Copy and paste your config here. Click 'Apply'. Config parameters will be imported as shown in the following sections.",
+     "yaml_file": "none",
      "ceph_conf": {
        "cluster_network": "",
        "fsid": "",
