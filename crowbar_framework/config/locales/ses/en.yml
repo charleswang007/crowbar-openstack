@@ -8,7 +8,35 @@ en:
         glance_instance: 'Glance Instance'
         nova_instance: 'Nova Instance'
         keystone_instance: 'Keystone Instance'
-        yaml_header: "Config yaml file"
-        yaml_file: "SES config yaml file"
+        yaml_header: "Import Config File"
+        yaml_file: "SES Config YAML"
+        parameters:
+          ceph_conf_info: 'Ceph Config'
+          cinder_info: 'Cinder'
+          cinder_backup_info: 'Cinder Backup'
+          glance_info: 'Glance'
+          nova_info: 'Nova'
+          radosgw_info: 'RADOSGW'
+        ceph_conf:
+          cluster_network: 'cluster_network'
+          fsid: 'fsid'
+          mon_host: 'mon_host'
+          mon_initial_members: 'mon_initial_members'
+          public_network: 'public_network'
+        radosgw_urls: 'radosgw_urls'
+        cinder:
+          key: 'key'
+          rbd_store_pool: 'rbd_store_pool'
+          rbd_store_user: 'rbd_store_user'
+        cinder-backup:
+          key: 'key'
+          rbd_store_pool: 'rbd_store_pool'
+          rbd_store_user: 'rbd_store_user'
+        glance:
+          key: 'key'
+          rbd_store_pool: 'rbd_store_pool'
+          rbd_store_user: 'rbd_store_user'
+        nova:
+          rbd_store_pool: 'rbd_store_pool'
       validation:
         test: "Test"
