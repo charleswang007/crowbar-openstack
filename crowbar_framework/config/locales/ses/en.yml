@@ -1,0 +1,14 @@
+en:
+  nav:
+    ses: 'SES'
+  barclamp:
+    ses:
+      edit_attributes:
+        cinder_instance: 'Cinder Instance'
+        glance_instance: 'Glance Instance'
+        nova_instance: 'Nova Instance'
+        keystone_instance: 'Keystone Instance'
+        yaml_header: "Config yaml file"
+        yaml_file: "SES config yaml file"
+      validation:
+        test: "Test"

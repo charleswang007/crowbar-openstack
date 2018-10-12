@@ -1,0 +1,15 @@
+= attributes_for @proposal do
+  .panel-sub
+    = header show_raw_deployment?, true
+
+  .panel-body
+    = instance_field :cinder
+    = instance_field :glance
+    = instance_field :nova
+    = instance_field :keystone
+
+    %fieldset
+      %legend
+        = t(".yaml_header")
+
+      = text_field %w(yaml_file)
