@@ -22,7 +22,7 @@
        "rbd_store_pool": "",
        "rbd_store_user": ""
      },
-     "cinder-backup": {
+     "cinder_backup": {
        "key": "",
        "rbd_store_pool": "",
        "rbd_store_user": ""

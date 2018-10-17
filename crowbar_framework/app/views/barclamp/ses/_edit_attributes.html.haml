@@ -8,11 +8,16 @@
     = instance_field :nova
     = instance_field :keystone
 
+    %script#yaml{ :type => "text/javascript", :src => "/assets/barclamps/ses/yaml.min.js" }
+
     %fieldset
       %legend
         = t(".yaml_header")
 
       = text_field %w(yaml_file)
+
+    %div.form-group.pull-left
+      %input(id='parse_yaml' class="form-control" type="button" value="Parse Yaml")
 
     %fieldset
       %legend
@@ -33,9 +38,9 @@
     %fieldset
       %legend
         = t(".parameters.cinder_backup_info")
-      = string_field %w(cinder-backup key)
-      = string_field %w(cinder-backup rbd_store_pool)
-      = string_field %w(cinder-backup rbd_store_user)
+      = string_field %w(cinder_backup key)
+      = string_field %w(cinder_backup rbd_store_pool)
+      = string_field %w(cinder_backup rbd_store_user)
 
     %fieldset
       %legend

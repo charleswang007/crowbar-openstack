@@ -43,7 +43,7 @@
                 "rbd_store_user": { "type": "str", "required": true }
               }
             },
-            "cinder-backup": {
+            "cinder_backup": {
               "type": "map",
               "required": true,
               "mapping": {
