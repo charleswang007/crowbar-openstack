@@ -57,4 +57,4 @@
     %fieldset
       %legend
         = t(".parameters.radosgw_info")
-      = string_field %w(radosgw_urls)
+      = array_string_field %w(radosgw_urls), :only_comma => true
